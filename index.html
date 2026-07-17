@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Web SmkN4</title>
+    <title>Beranda</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -33,12 +33,12 @@
                         Profil Sekolah
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="profilDropdown">
-                        <li><a class="dropdown-item" href="ProfilSekolah/kepalasekolah.html">Kepala Sekolah</a></li>
-                        <li><a class="dropdown-item" href="ProfilSekolah/gallerysekolah.html">Gallery Sekolah</a></li>
+                        <li><a class="dropdown-item" href="/ProfilSekolah/kepalasekolah.html">Kepala Sekolah</a></li>
+                        <li><a class="dropdown-item" href="/ProfilSekolah/gallerysekolah.html">Gallery Sekolah</a></li>
                         <li><a class="dropdown-item" href="/ProfilSekolah/sejarahsekolah.html">Sejarah Sekolah</a></li>
-                        <li><a class="dropdown-item" href="#">Visi & Misi</a></li>
-                        <li><a class="dropdown-item" href="#">Organisasi</a></li>
-                        <li><a class="dropdown-item" href="#">Prestasi</a></li>
+                        <li><a class="dropdown-item" href="/ProfilSekolah/visimisi.html">Visi & Misi</a></li>
+                        <li><a class="dropdown-item" href="/ProfilSekolah/organisasi.html">Organisasi</a></li>
+                        <li><a class="dropdown-item" href="/ProfilSekolah/prestasi.html">Prestasi</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -46,21 +46,21 @@
                         Profil Jurusan
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="jurusanDropdown">
-                        <li><a class="dropdown-item" href="#">PPLG</a></li>
-                        <li><a class="dropdown-item" href="#">TKJ</a></li>
-                        <li><a class="dropdown-item" href="#">DKV</a></li>
-                        <li><a class="dropdown-item" href="#">MPLB</a></li>
-                        <li><a class="dropdown-item" href="#">AKL</a></li>
-                        <li><a class="dropdown-item" href="#">BC</a></li>
-                        <li><a class="dropdown-item" href="#">MK</a></li>
-                        <li><a class="dropdown-item" href="#">PH</a></li>
+                        <li><a class="dropdown-item" href="/Profiljurusan/pplg.html">PPLG</a></li>
+                        <li><a class="dropdown-item" href="/Profiljurusan/tkjt.html">TKJT</a></li>
+                        <li><a class="dropdown-item" href="/Profiljurusan/dkv.html">DKV</a></li>
+                        <li><a class="dropdown-item" href="/Profiljurusan/mplb.html">MPLB</a></li>
+                        <li><a class="dropdown-item" href="/Profiljurusan/akl.html">AKL</a></li>
+                        <li><a class="dropdown-item" href="/Profiljurusan/bc.html">BC</a></li>
+                        <li><a class="dropdown-item" href="/Profiljurusan/mk.html">MK</a></li>
+                        <li><a class="dropdown-item" href="/Profiljurusan/ph.html">PH</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Berita</a>
+                    <a class="nav-link" href="berita.html">Berita</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Hubungi Kami</a>
+                    <a class="nav-link" href="hubungikami.html">Hubungi Kami</a>
                 </li>
             </ul>
         </div>
@@ -72,37 +72,38 @@
         <p class="animate__animated animate__fadeIn animate__delay-1s">Mencetak Generasi Digital Unggul</p>
     </div>
 </div>
-
-<section class="py-5 bg-white">
+<section class="sejarah-achievements py-5 bg-light">
     <div class="container">
-        <h2 class="text-3xl fw-bold text-center text-dark mb-5 animate-on-scroll">Keunggulan Kami</h2>
-        <div class="row g-4 text-center">                
-            <div class="col-6 col-md-3">
-                <div class="p-4 bg-white stat-card animate-on-scroll" data-delay="0">
-                    <div class="fs-1 fw-bolder text-primary counter" data-target="11">0</div>
-                    <p class="mt-3 fs-6 fw-semibold text-dark">Tahun Mencetak Generasi</p>
-                    <p class="text-sm text-muted">Digital Unggul</p>
+        <div class="text-center mb-5 animate-on-scroll">
+            <h2 class="achievement-title">Keunggulan kami</h2>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="achievement-card animate-on-scroll">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h4>Juara Kompetisi Nasional</h4>
+                    <p>Siswa kami berhasil meraih juara di berbagai kompetisi teknologi dan desain tingkat nasional.</p>
                 </div>
             </div>
-            <div class="col-6 col-md-3">
-                <div class="p-4 bg-white stat-card animate-on-scroll" data-delay="200">
-                    <div class="fs-1 fw-bolder text-primary counter" data-target="2000">0</div>
-                    <p class="mt-3 fs-6 fw-semibold text-dark">Alumni Siap Berkerja dan Menempuh ilmu</p>
-                    <p class="text-sm text-muted">Industri & Teknologi</p>
+            <div class="col-md-4">
+                <div class="achievement-card animate-on-scroll">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h4>Sertifikasi Internasional</h4>
+                    <p>Sekolah dan siswa kami memiliki sertifikasi dari lembaga internasional terkemuka.</p>
                 </div>
             </div>
-            <div class="col-6 col-md-3">
-                <div class="p-4 bg-white stat-card animate-on-scroll" data-delay="400">
-                    <div class="fs-1 fw-bolder text-primary counter" data-target="100">0</div>
-                    <p class="mt-3 fs-6 fw-semibold text-dark">Mitra Industri & Perguruan</p>
-                    <p class="text-sm text-muted">Tinggi Terkemuka</p>
-                </div>
-            </div>
-            <div class="col-6 col-md-3">
-                <div class="p-4 bg-white stat-card animate-on-scroll" data-delay="600">
-                    <div class="fs-1 fw-bolder text-primary counter" data-target="8">0</div>
-                    <p class="mt-3 fs-6 fw-semibold text-dark">Jurusan Keahlian Berbasis</p>
-                    <p class="text-sm text-muted">Teknologi Terkini</p>
+            <div class="col-md-4">
+                <div class="achievement-card animate-on-scroll">
+                    <div class="achievement-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h4>Kemitraan Global</h4>
+                    <p>Telah menjalin kerjasama dengan institusi pendidikan dan industri di berbagai negara.</p>
                 </div>
             </div>
         </div>
@@ -139,44 +140,67 @@
     </div>
 </div>
 <!-- patner -->
-<section class="py-5 bg-light partners-section">
-    <div class="container">
-        <div class="text-center mb-5">
-            <span class="badge custom-badge mb-3">PATNERSHIP</span>
-            <h2 class="display-5 fw-bold text-dark mb-3 animate-on-scroll">SMKN 4 Sarolangun Bekerja Sama dengan</h2>
-        </div>
-        <div class="partners-carousel">
-            <div class="partners-wrapper">
-                <div class="partner-item animate-on-scroll">
-                    <img src="https://bankjambi.co.id/public/uploads/logo.png" alt="Bank Jambi" class="partner-logo">
-                </div>
-                <div class="partner-item animate-on-scroll">
-                    <img src="img/alfamart.png" alt="Alfamart" class="partner-logo">
-                </div>
-                <div class="partner-item animate-on-scroll">
-                    <img src="https://mikrotik.com/img/mtv2/newlogo.svg" alt="Mikrotik" class="partner-logo">
-                </div>
-                <div class="partner-item animate-on-scroll">
-                    <img src="https://www.telkom.co.id/images/logo_horizontal.svg" alt="Telkom" class="partner-logo">
-                </div>
-                <div class="partner-item animate-on-scroll">
-                    <img src="https://www.telkomsel.com/landingpage/api/web/get-img?imgid=logo_indiHome.png" alt="Indihome" class="partner-logo">
+ <section class="py-5 bg-light partners-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge custom-badge mb-3">PARTNERSHIP</span>
+                <h2 class="display-5 fw-bold text-dark mb-3 animate-on-scroll">SMKN 4 Sarolangun Bekerja Sama dengan</h2>
             </div>
-              <div class="partner-item animate-on-scroll">
-                    <img src="https://moondroplab.com/cdn-cgi/image/format=avif,quality=90/https://cdn.prod.website-files.com/625fb843a8046c1c7861d89e/626fd458d107ab020cfa3efb_logo.svg" alt="Indihome" class="partner-logo">
+            <div class="partners-carousel">
+                <div class="partners-wrapper">
+                    <div class="partner-item animate-on-scroll">
+                        <a href="https://bankjambi.co.id/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://bankjambi.co.id/public/uploads/logo.png" alt="Bank Jambi" class="partner-logo">
+                        </a>
+                    </div>
+                    <div class="partner-item animate-on-scroll">
+                        <a href="https://alfamart.co.id/" target="_blank" rel="noopener noreferrer">
+                            <img src="img/alfamart.png" alt="Alfamart" class="partner-logo">
+                        </a>
+                    </div>
+                    <div class="partner-item animate-on-scroll">
+                        <a href="https://mikrotik.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://logos-world.net/wp-content/uploads/2023/01/MikroTik-Logo.jpg" alt="Mikrotik" class="partner-logo">
+                        </a>
+                    </div>
+                    <div class="partner-item animate-on-scroll">
+                        <a href="https://www.telkom.co.id/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://www.telkom.co.id/images/logo_horizontal.svg" alt="Telkom" class="partner-logo">
+                        </a>
+                    </div>
+                    <div class="partner-item animate-on-scroll">
+                        <a href="https://www.telkomsel.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://www.telkomsel.com/landingpage/api/web/get-img?imgid=logo_indiHome.png" alt="Indihome" class="partner-logo">
+                        </a>
+                    </div>
+                     <div class="partner-item animate-on-scroll">
+                        <a href="https://www.bwhotels.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://cms.bwhospitality.com/assets/img/property/1/logo/ea9b70f2982a09a5ad86a1435e4797ea.png" alt="bwhotel" class="partner-logo">
+                        </a>
+                    </div>
+                     <div class="partner-item animate-on-scroll">
+                        <a href="https://www.tvri.co.id/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/250px-TVRILogo2019.svg.png" alt="TVRI" class="partner-logo">
+                        </a>
+                    </div>
+                    <div class="partner-item animate-on-scroll">
+                        <a href="https://www.sinarmas.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://www.sinarmas.com/images/Untitled-2.png" alt="Sinar Mas" class="partner-logo">
+                        </a>
+                    </div>
+                    <div class="partner-item animate-on-scroll">
+                        <a href="https://karetbatin8.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://cdn-ilcnjen.nitrocdn.com/XojjraQwwtnUplXLlNYsDfEHLEKyJEGr/assets/images/optimized/rev-b4c2b8e/karetbatin8.com/wp-content/uploads/2024/11/logo-kbds-01.png" alt="Karet Batin" class="partner-logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-indicators mt-4">
+                    <button class="indicator active" data-slide="0"></button>
+                    <button class="indicator" data-slide="1"></button>
+                </div>
             </div>
-              <div class="partner-item animate-on-scroll">
-                    <img src="https://moondroplab.com/cdn-cgi/image/format=avif,quality=90/https://cdn.prod.website-files.com/625fb843a8046c1c7861d89e/626fd458d107ab020cfa3efb_logo.svg" alt="Indihome" class="partner-logo">
-            </div>
-              <div class="partner-item animate-on-scroll">
-                    <img src="https://moondroplab.com/cdn-cgi/image/format=avif,quality=90/https://cdn.prod.website-files.com/625fb843a8046c1c7861d89e/626fd458d107ab020cfa3efb_logo.svg" alt="Indihome" class="partner-logo">
-            </div>                                
         </div>
-        <div class="carousel-indicators mt-4">
-            <button class="indicator active" data-slide="0"></button>
-        </div>
-    </div>
-</section>
+    </section>
 <!-- jurusan -->
 <section class="py-5 bg-light">
     <div class="container">
@@ -263,6 +287,7 @@
                     <h2 class="jurusan-title">Desain Komunikasi Visual</h2>
                     <p class="jurusan-description">
                         DKV adalah cabang ilmu desain. Di jurusan ini, siswa belajar konsep komunikasi dan ungkapan kreatif dengan menggunakan berbagai elemen visual untuk menyampaikan pesan.
+                    </p>
                     <div class="jurusan-features">
                         <div class="feature-item">
                             <i class="fas fa-palette"></i>
@@ -295,7 +320,7 @@
                     <span class="jurusan-badge">MPLB</span>
                     <h2 class="jurusan-title">Manajemen Perkantoran dan Layanan Bisnis</h2>
                     <p class="jurusan-description">
-                        
+                        Manajemen Perkantoran dan Layanan Bisnis adalah jurusan yang mempelajari pengelolaan administrasi kantor, layanan bisnis profesional, dan manajemen operasional.
                     </p>
                     <div class="jurusan-features">
                         <div class="feature-item">
@@ -425,6 +450,127 @@
             </div>
         </div>
     </div>
-</section>
+
+    <!-- MK -->
+    <div class="container py-5">
+        <div class="row align-items-center mb-5 jurusan-card animate-on-scroll">
+            <div class="col-lg-6 order-lg-2">
+                <div class="jurusan-content">
+                    <span class="jurusan-badge">MK</span>
+                    <h2 class="jurusan-title">Marketing</h2>
+                    <p class="jurusan-description">
+                        Jurusan marketing adalah program studi yang mempelajari strategi dan teknik untuk memasarkan produk atau jasa, yang fokus pada riset pasar, perilaku konsumen, branding, promosi, dan digital marketing.
+                    </p>
+                    <div class="jurusan-features">
+                        <div class="feature-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Market Research</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-bullhorn"></i>
+                            <span>Digital Marketing</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>E-Commerce Strategy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="jurusan-image">
+                    <img src="img/athanasiaaw.jpeg" alt="Marketing" class="img-fluid rounded-3">
+                    <div class="image-overlay">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Intro Photos Section -->
+    <section class="intro-photos py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5 animate-on-scroll">
+                <span class="badge custom-badge mb-3">PENGENALAN SEKOLAH</span>
+                <h2 class="display-5 fw-bold text-dark mb-3">Mengenal SMKN 4 Sarolangun</h2>
+                <p class="text-secondary fs-5">Fasilitas modern dan lingkungan belajar yang mendukung pengembangan potensi siswa</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="intro-photo-card animate-on-scroll">
+                        <div class="intro-photo-image">
+                            <img src="img/halldepan.jpeg" alt="Halaman Depan" class="img-fluid rounded-3">
+                            <div class="intro-photo-overlay">
+                            </div>
+                        </div>
+                        <div class="intro-photo-content">
+                            <h4>Bangunan Modern</h4>
+                            <p>Fasilitas sekolah yang dirancang dengan arsitektur modern dan nyaman untuk mendukung proses pembelajaran.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="intro-photo-card animate-on-scroll">
+                        <div class="intro-photo-image">
+                            <img src="img/labpplg.jpg" alt="Laboratorium" class="img-fluid rounded-3">
+                            <div class="intro-photo-overlay">
+                            </div>
+                        </div>
+                        <div class="intro-photo-content">
+                            <h4>Laboratorium Lengkap</h4>
+                            <p>Fasilitas laboratorium dengan peralatan canggih untuk mendukung praktik siswa di berbagai bidang keahlian.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="intro-photo-card animate-on-scroll">
+                        <div class="intro-photo-image">
+                            <img src="img/upacara.jpeg" alt="Upacara Hari Senin" class="img-fluid rounded-3">
+                            <div class="intro-photo-overlay">
+                            </div>
+                        </div>
+                        <div class="intro-photo-content">
+                            <h4>Upacara Hari Senin</h4>
+                            <p>Kegiatan upacara bendera setiap hari senin sebagai salah satu tradisi untuk memupuk kedisiplinan, patriotisme, dan karakter siswa SMKN 4 Sarolangun.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white py-3" style="font-size: 0.9rem;">
+        <div class="container">
+            <div class="row g-2">
+                <div class="col-md-4 mb-2">
+                    <h6 style="font-size: 1rem; margin-bottom: 0.5rem;">SMK NEGERI 4 SAROLANGUN</h6>
+                    <p style="margin-bottom: 0.3rem; font-size: 0.85rem;">Sekolah Menengah Kejuruan dengan 8 program keahlian terkemuka di Sarolangun.</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <h6 style="font-size: 1rem; margin-bottom: 0.5rem;">Kontak</h6>
+                    <p style="margin-bottom: 0.3rem; font-size: 0.85rem;">
+                        <i class="fas fa-phone"></i> +62-xxx-xxxx<br>
+                        <i class="fas fa-envelope"></i> info@smkn4sarolangun.sch.id<br>
+                        <i class="fas fa-map-marker-alt"></i> Sarolangun, Jambi
+                    </p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <h6 style="font-size: 1rem; margin-bottom: 0.5rem;">Ikuti Kami</h6>
+                    <div class="d-flex gap-2">
+                        <a href="https://www.facebook.com/SmknEmpat.sarolangun" class="text-white text-decoration-none"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/sarolangun_smkn4/" class="text-white text-decoration-none"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white text-decoration-none"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-white my-2">
+            <div class="text-center">
+                <p style="margin-bottom: 0; font-size: 0.85rem;">&copy; 2025 SMK NEGERI 4 SAROLANGUN. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Akuntansi Keuangan Lembaga</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/javascript.js"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+            <img src="/img/WhatsApp_Image_2025-11-11_at_11.38.12-removebg-preview.png" alt="" class="d-inline-block align-text-top navbar-brand-logo">
+            SMK BISA HEBAT
+            <img src="/img/f28c257f6373942d3ee89bc6936be5a4-removebg-preview.png" alt=""  class="d-inline-block align-text-top navbar-brand-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown"> 
+            <ul class="navbar-nav ms-auto"> 
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Beranda</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="profilDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Profil Sekolah
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="profilDropdown">
+                        <li><a class="dropdown-item" href="/ProfilSekolah/kepalasekolah.html">Kepala Sekolah</a></li>
+                        <li><a class="dropdown-item" href="/ProfilSekolah/gallerysekolah.html">Gallery Sekolah</a></li>
+                        <li><a class="dropdown-item" href="/ProfilSekolah/sejarahsekolah.html">Sejarah Sekolah</a></li>
+                        <li><a class="dropdown-item" href="/visimisi.html">Visi & Misi</a></li>
+                        <li><a class="dropdown-item" href="/ProfilSekolah/organisasi.html">Organisasi</a></li>
+                        <li><a class="dropdown-item" href="#">Prestasi</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="jurusanDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Profil Jurusan
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="jurusanDropdown">
+                        <li><a class="dropdown-item" href="pplg.html">PPLG</a></li>
+                        <li><a class="dropdown-item" href="tkjt.html">TKJT</a></li>
+                        <li><a class="dropdown-item" href="dkv.html">DKV</a></li>
+                        <li><a class="dropdown-item" href="mplb.html">MPLB</a></li>
+                        <li><a class="dropdown-item" href="akl.html">AKL</a></li>
+                        <li><a class="dropdown-item" href="bc.html">BC</a></li>
+                        <li><a class="dropdown-item" href="mk.html">MK</a></li>
+                        <li><a class="dropdown-item" href="ph.html">PH</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Berita</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hubungi Kami</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid py-5 mt-5 bg-primary bg-opacity-10">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/index.html" class="text-decoration-none">Beranda</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">AKL</li>
+                        </ol>
+                    </nav>
+                    <h1 class="display-5 fw-bold text-primary animate__animated animate__fadeInDown">Akuntansi Keuangan Lembaga</h1>
+                    <p class="lead text-muted animate__animated animate__fadeIn animate__delay-1s">Profil Jurusan</p>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <!-- AKL Hero Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0 animate-on-scroll">
+                    <div class="jurusan-image">
+                        <img src="/img/athanasiaaw.jpeg" alt="AKL Accounting" class="img-fluid rounded-3">
+                        <div class="image-overlay">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 animate-on-scroll">
+                    <span class="badge custom-badge mb-3">PROGRAM KEAHLIAN AKL</span>
+                    <h2 class="display-5 fw-bold text-dark mb-3">Akuntansi Keuangan Lembaga</h2>
+                    <p class="fs-5 text-muted mb-4">
+                        AKL adalah program keahlian yang fokus pada pencatatan keuangan, pembukuan, dan pelaporan keuangan profesional. Siswa akan mempelajari sistem akuntansi modern, perpajakan, dan analisis keuangan untuk lembaga.
+                    </p>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <div class="feature-item">
+                                <i class="fas fa-calculator"></i>
+                                <span>Bookkeeping</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="feature-item">
+                                <i class="fas fa-file-invoice"></i>
+                                <span>Financial Reports</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="feature-item">
+                                <i class="fas fa-receipt"></i>
+                                <span>Taxation</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="feature-item">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Financial Analysis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sambutan Kepala Jurusan Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-stretch">
+                <div class="col-lg-7 col-md-12 order-lg-1 order-2">
+                    <div class="p-4 p-md-0 animate-on-scroll">
+                        <span class="badge custom-badge mb-3">SAMBUTAN KEPALA JURUSAN AKL</span>               
+                        <h2 class="fw-bold mb-1 text-primary">Kepala Jurusan AKL</h2>
+                        <p class="text-secondary mb-4">Akuntansi Keuangan Lembaga</p>
+                        
+                        <div class="content-section animate-on-scroll" data-delay="200">
+                            <p class="text-dark fs-5">
+                                Selamat datang di program keahlian Akuntansi Keuangan Lembaga (AKL).
+                            </p>
+                            <p class="text-dark">
+                                Program AKL dirancang untuk mempersiapkan akuntan profesional yang mampu menguasai pembukuan, laporan keuangan, perpajakan, dan analisis keuangan sesuai standar akuntansi nasional dan internasional. Kami menyediakan pelatihan intensif dengan software akuntansi terkini dan instruktur bersertifikat.
+                            </p>
+                            <p class="text-dark">
+                                Dengan fokus pada kompetensi praktis dan sertifikasi profesional, lulusan AKL kami siap bekerja di berbagai institusi keuangan, perusahaan, dan lembaga pemerintah dengan standar kualitas internasional.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 order-lg-2 order-1 mb-4 mb-lg-0">
+                    <div class="image-container custom-shadow animate-on-scroll" data-delay="300">
+                        <img src="/img/athanasiaaw.jpeg" alt="Kepala Jurusan AKL" class="img-fluid rounded-3 profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AKL Content Sections with 3 Cards -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold text-dark mb-3">Materi Pembelajaran AKL</h2>
+                <p class="text-muted fs-5">Tiga fokus utama dalam program keahlian ini</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Card 1: Bookkeeping -->
+                <div class="col-lg-4 col-md-6 animate-on-scroll">
+                    <div class="pplg-card">
+                        <div class="pplg-card-image">
+                            <img src="/img/athanasiaaw.jpeg" alt="Bookkeeping" class="img-fluid">
+                            <div class="pplg-card-overlay">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                        </div>
+                        <div class="pplg-card-content">
+                            <h4 class="mb-2">Pembukuan dan Pencatatan</h4>
+                            <p class="text-muted mb-3">Mencatat semua transaksi keuangan dengan sistem akuntansi yang rapi dan profesional.</p>
+                            <ul class="pplg-card-list">
+                                <li><i class="fas fa-check"></i> Double Entry Bookkeeping</li>
+                                <li><i class="fas fa-check"></i> Journal & Ledger</li>
+                                <li><i class="fas fa-check"></i> Trial Balance</li>
+                                <li><i class="fas fa-check"></i> Accounting Software</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Financial Reporting -->
+                <div class="col-lg-4 col-md-6 animate-on-scroll">
+                    <div class="pplg-card">
+                        <div class="pplg-card-image">
+                            <img src="/img/athanasiaaw.jpeg" alt="Financial Reports" class="img-fluid">
+                            <div class="pplg-card-overlay">
+                                <i class="fas fa-file-invoice"></i>
+                            </div>
+                        </div>
+                        <div class="pplg-card-content">
+                            <h4 class="mb-2">Laporan Keuangan</h4>
+                            <p class="text-muted mb-3">Menyusun laporan keuangan yang akurat sesuai standar akuntansi internasional.</p>
+                            <ul class="pplg-card-list">
+                                <li><i class="fas fa-check"></i> Income Statement</li>
+                                <li><i class="fas fa-check"></i> Balance Sheet</li>
+                                <li><i class="fas fa-check"></i> Cash Flow Statement</li>
+                                <li><i class="fas fa-check"></i> Financial Analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Taxation -->
+                <div class="col-lg-4 col-md-6 animate-on-scroll">
+                    <div class="pplg-card">
+                        <div class="pplg-card-image">
+                            <img src="/img/athanasiaaw.jpeg" alt="Taxation" class="img-fluid">
+                            <div class="pplg-card-overlay">
+                                <i class="fas fa-receipt"></i>
+                            </div>
+                        </div>
+                        <div class="pplg-card-content">
+                            <h4 class="mb-2">Perpajakan dan Investasi</h4>
+                            <p class="text-muted mb-3">Mengelola pajak dan perencanaan investasi keuangan untuk lembaga dan perusahaan.</p>
+                            <ul class="pplg-card-list">
+                                <li><i class="fas fa-check"></i> Tax Planning</li>
+                                <li><i class="fas fa-check"></i> Income Tax</li>
+                                <li><i class="fas fa-check"></i> VAT Management</li>
+                                <li><i class="fas fa-check"></i> Investment Planning</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill & Competency Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold text-dark mb-3">Kompetensi yang Dikuasai</h2>
+                <p class="text-muted fs-5">Lulusan AKL siap dengan skill industri</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 animate-on-scroll">
+                    <div class="skill-box">
+                        <div class="skill-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h4>Bookkeeping</h4>
+                        <p>Pencatatan transaksi keuangan dengan akurat dan sistematis.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 animate-on-scroll">
+                    <div class="skill-box">
+                        <div class="skill-icon">
+                            <i class="fas fa-file-invoice"></i>
+                        </div>
+                        <h4>Financial Reporting</h4>
+                        <p>Penyusunan laporan keuangan sesuai standar akuntansi berlaku.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 animate-on-scroll">
+                    <div class="skill-box">
+                        <div class="skill-icon">
+                            <i class="fas fa-receipt"></i>
+                        </div>
+                        <h4>Taxation</h4>
+                        <p>Pemahaman sistem perpajakan dan penyusunan SPT yang benar.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 animate-on-scroll">
+                    <div class="skill-box">
+                        <div class="skill-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <h4>Accounting Software</h4>
+                        <p>Mahir menggunakan MYOB, SAP, dan software akuntansi modern.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 animate-on-scroll">
+                    <div class="skill-box">
+                        <div class="skill-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Financial Analysis</h4>
+                        <p>Analisis laporan keuangan untuk pengambilan keputusan bisnis.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 animate-on-scroll">
+                    <div class="skill-box">
+                        <div class="skill-icon">
+                            <i class="fas fa-money-bill"></i>
+                        </div>
+                        <h4>Budget Planning</h4>
+                        <p>Perencanaan dan pengendalian anggaran untuk organisasi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Prospects Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold text-dark mb-3">Peluang Karir</h2>
+                <p class="text-muted fs-5">Lulusan AKL memiliki prospek kerja yang cerah di berbagai sektor</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 animate-on-scroll">
+                    <div class="career-card">
+                        <div class="career-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h5>Bookkeeper</h5>
+                        <p>Mencatat dan mengelola pembukuan keuangan perusahaan.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 animate-on-scroll">
+                    <div class="career-card">
+                        <div class="career-icon">
+                            <i class="fas fa-file-invoice-dollar"></i>
+                        </div>
+                        <h5>Accountant</h5>
+                        <p>Menjalankan fungsi akuntansi dan penyusunan laporan keuangan.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 animate-on-scroll">
+                    <div class="career-card">
+                        <div class="career-icon">
+                            <i class="fas fa-receipt"></i>
+                        </div>
+                        <h5>Tax Officer</h5>
+                        <p>Mengelola perpajakan dan pelaporan pajak perusahaan.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 animate-on-scroll">
+                    <div class="career-card">
+                        <div class="career-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h5>Financial Analyst</h5>
+                        <p>Menganalisis data keuangan untuk laporan dan forecasting.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 animate-on-scroll">
+                    <div class="career-card">
+                        <div class="career-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <h5>Accounting Staff</h5>
+                        <p>Staff pendukung departemen accounting di perusahaan.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 animate-on-scroll">
+                    <div class="career-card">
+                        <div class="career-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h5>Auditor</h5>
+                        <p>Melakukan audit internal dan eksternal atas laporan keuangan.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 animate-on-scroll">
+                    <div class="career-card">
+                        <div class="career-icon">
+                            <i class="fas fa-bank"></i>
+                        </div>
+                        <h5>Bank Officer</h5>
+                        <p>Bekerja di perbankan dalam divisi accounting dan finance.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 animate-on-scroll">
+                    <div class="career-card">
+                        <div class="career-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h5>Finance Manager</h5>
+                        <p>Mengelola keuangan dan investasi perusahaan level manager.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+  <footer class="bg-dark text-white py-3" style="font-size: 0.9rem;">
+        <div class="container">
+            <div class="row g-2">
+                <div class="col-md-4 mb-2">
+                    <h6 style="font-size: 1rem; margin-bottom: 0.5rem;">SMK NEGERI 4 SAROLANGUN</h6>
+                    <p style="margin-bottom: 0.3rem; font-size: 0.85rem;">Sekolah Menengah Kejuruan dengan 8 program keahlian terkemuka di Sarolangun.</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <h6 style="font-size: 1rem; margin-bottom: 0.5rem;">Kontak</h6>
+                    <p style="margin-bottom: 0.3rem; font-size: 0.85rem;">
+                        <i class="fas fa-phone"></i> +62-xxx-xxxx<br>
+                        <i class="fas fa-envelope"></i> info@smkn4sarolangun.sch.id<br>
+                        <i class="fas fa-map-marker-alt"></i> Sarolangun, Jambi
+                    </p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <h6 style="font-size: 1rem; margin-bottom: 0.5rem;">Ikuti Kami</h6>
+                    <div class="d-flex gap-2">
+                        <a href="#" class="text-white text-decoration-none"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white text-decoration-none"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white text-decoration-none"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-white my-2">
+            <div class="text-center">
+                <p style="margin-bottom: 0; font-size: 0.85rem;">&copy; 2025 SMK NEGERI 4 SAROLANGUN. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    </body>
+    </html>
